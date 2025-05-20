@@ -1,19 +1,27 @@
 # Laravel Contact Management System
 
 ## Description
+
 This is a Laravel-based Contact Management System. It allows users to submit a contact form, stores submissions securely in a MySQL database, and provides an admin panel to review submissions. This app was created as part of a professional coding assessment by **Property Studios**
 
+---
+
 ## Features
+
 - Input validation and sanitization
 - Data storage using Eloquent ORM
 - Admin view sorted by submission date
 - Masked email addresses for privacy
+
+---
 
 ## Tech Stack
 
 - **Backend:** Laravel 12 (PHP 8.2)
 - **Frontend:** Blade, CSS/Bootstrap
 - **Database:** MySQL
+
+---
 
 ## Why Laravel (PHP)?
 
@@ -23,17 +31,21 @@ I chose **Laravel** for this project because of its elegant syntax, powerful bui
 - Defining and handling routes with clean, readable syntax
 - Implementing authentication and authorization securely and efficiently
 
+---
+
 ## Test Admin Credentials
 
 - **Route:** /admin
 - **Email:** admin@localhost.co.za
 - **Password:** P@ssw0rd123
 
+---
+
 ## Installation Guide
 
 ```bash
-git clone https://github.com/MfundoM/stream-hive.git
-cd stream-hive
+git clone https://github.com/MfundoM/contact-system.git
+cd contact-system
 
 # Install dependencies
 composer install
